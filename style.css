@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contenedor {
+    width: 1200px;
+    border: 1px solid #cccccc;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+
+
+/* --------------------------------------------------------------------------------------- */
+
+#cabecera {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #cccccc;
+    background-color: rgb(32, 226, 252);
+    color: white;
+    text-align: center;
+    line-height: 90px;
+}
+
+#cabecera p {
+    font-size: 45px;
+}
+
+
+/* ----------------------------------------------------------------------------------------- */
+
+#menu {
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+    border-right: 1px solid rgb(195, 182, 182);
+}
+
+#menu ul li a {
+    display: block;
+    padding: 10px;
+    color: rgb(8, 8, 8);
+    cursor: pointer;
+}
+
+
+#menu ul li:hover {
+    background-color: rgb(25, 175, 195);
+}
+
+
+#menu ul li:hover a {
+    color: white;
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+#contenido {
+    width: 69%;
+    float: left;
+}
+
+#lateral {
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+    min-height: 500px;
+    text-align: center;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+#contenido>h1 {
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    padding: 15px;
+    color: #444444;
+}
+
+#contenido .caja {
+    display: block;
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 15px;
+    background-color: cornsilk;
+    float: left;
+    margin-left: 35px;
+}
+
+
+#pie {
+    width: 100%;
+    background: #eeeeee;
+    text-align: center;
+    color: #444444;
+    height: 55px;
+    line-height: 55px;
+    border-top: 1px solid #cccccc;
+}
