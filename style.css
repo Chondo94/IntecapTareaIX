@@ -79,7 +79,7 @@
     width: 30%;
     float: left;
     border: 1px solid black;
-    min-height: 500px;
+    min-height: 400px;
     text-align: center;
 }
 
@@ -113,4 +113,22 @@
     height: 55px;
     line-height: 55px;
     border-top: 1px solid #cccccc;
+}
+
+img{
+    width: 286px;
+    height: 261px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    content: ;
+}
+
+#contenido .caja h2{
+    text-align: center;
+}
+
+#pizza{
+    width: 373px;
+    height: 325px;
 }
